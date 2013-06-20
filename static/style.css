@@ -136,3 +136,7 @@ ul.menu li {
 ul.menu li a {
     color: #fff;
 }
+
+ul.menu li a img {
+    margin-top: -5px;
+}
