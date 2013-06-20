@@ -9,7 +9,7 @@
     <span class="title-label">Nephia</span>
     <span class="envname">a mini web application framework</span>
     <ul class="menu">
-      <li><a href="index_ja.html">日本語</a></li>
+      <li><a href="index.html">English</a></li>
       <li><a href="http://search.cpan.org/perldoc?Nephia">CPAN</a></li>
       <li><a href="https://github.com/ytnobody/Nephia">GitHub</a></li>
       <li><a href="https://travis-ci.org/ytnobody/Nephia">Travis-CI</a></li>
@@ -20,32 +20,32 @@
   <div class="content">
 
     <h2>Hello, Nephia world!</h2>
-    <p>Nephia is a mini web-application framework written in perl.</p>
+    <p>Nephiaは, Perlで書かれた小さなWebアプリケーションフレームワークです.</p>
     <div class="sub">
-      <h3>Required stuff</h3>
+      <h3>必要なもの</h3>
       <ul>
-        <li>Perl 5.10 or later</li>
-        <li>Plack - reference implementation for PSGI</li>
-        <li>Linux or Unix like system</li>
+        <li>Perl 5.10 以上</li>
+        <li>Plack - PSGIのリファレンス実装</li>
+        <li>LinuxかUnixライクなシステム</li>
       </ul>
-      <h3>Recommended stuff</h3>
+      <h3>推奨されるもの</h3>
       <ul>
-        <li>cpanm - Tiny tool that installs any modules from CPAN</li>
-        <li>perlbrew or plenv</li>
+        <li>cpanm - CPANからモジュールをインストールするツール</li>
+        <li>perlbrew もしくは plenv</li>
       </ul>
     </div>
 
-    <h2>Getting Started</h2>
+    <h2>Nephiaを始めよう!</h2>
     <div class="sub">
-      <h3>Install Nephia</h3>
-      <p>First, we have to install Nephia.</p>
+      <h3>Nephiaのインストール</h3>
+      <p>まず, Nephiaをインストールしなければなりません.</p>
       <textarea class="input" readonly>cpanm Nephia</textarea>
-      <p>Okay, that's all. :)</p>
-      <h3>Create your project</h3>
-      <p>Next, let's try to create your project.</p>
+      <p>たったのこれだけです!</p>
+      <h3>プロジェクトを作る</h3>
+      <p>次に, あなたの新しいプロジェクトを生成しましょう.</p>
       <textarea class="input" readonly>nephia-setup MyApp</textarea>
-      <p><var>MyApp</var> is your project name. You may use other one.</p>
-      <p>Then, you'll get following response.</p>
+      <p><var>MyApp</var> が, あなたのプロジェクトの名前です.</p>
+      <p>次のようなレスポンスがあるはずです.</p>
       <textarea class="response" readonly>create path MyApp
 create path MyApp/lib
 create path MyApp/etc
@@ -65,24 +65,24 @@ spew into file MyApp/etc/conf/development.pl
 spew into file MyApp/etc/conf/staging.pl
 spew into file MyApp/etc/conf/production.pl
 spew into file MyApp/.gitignore</textarea>
-      <p>And, you've completed to create your project!</p>
-      <h3>Plackup and look your project's page</h3>
-      <p>Do you want look your project page? Okey, let's do it!</p>
-      <p>First, you have to change current directory to your project directory.</p>
+      <p>これで, あなたのプロジェクトが生成されました!</p>
+      <h3>plackupで起動する</h3>
+      <p>生成したプロジェクトを, 早速動かしてみましょう!</p>
+      <p>まず, あなたのプロジェクトのディレクトリに移動します.</p>
       <textarea class="input" readonly>cd ./MyApp</textarea>
-      <p>And, you do "plackup".</p>
+      <p>そして, plackupします.</p>
       <textarea class="input" readonly>plackup</textarea>
-      <p>Then, you'll get some message.</p>
+      <p>すると, 次のようなメッセージが出てくるはずです.</p>
       <textarea class="response" readonly>HTTP::Server::PSGI: Accepting connections at http://0:5000/</textarea>
-      <p>Later, access <a href="http://localhost:5000/">http://localhost:5000/</a> with your browser.</p>
+      <p>これで準備ができました. あなたのブラウザで, <a href="http://localhost:5000/">http://localhost:5000/</a>を見てみましょう!</p>
     </div>
 
-    <h2>Want to know more?</h2>
+    <h2>もっと詳しく</h2>
     <div class="sub">
-      <p>Please check a <a href="https://metacpan.org/module/Nephia">documentation</a> for know more detail.</p>
+      <p>Nephiaについての詳しい情報は, <a href="https://metacpan.org/module/Nephia">documentation</a> を確認して下さい.</p>
     </div>
 
-    <h2>Contributors</h2>
+    <h2>コントリビューター</h2>
     <div class="sub">
     <ul>
       <li>ytnobody</li>
@@ -92,7 +92,7 @@ spew into file MyApp/.gitignore</textarea>
       <li>mackee_w (macopy)</li>
       <li>moznion</li>
     </ul>
-    <p>And folks of <a href="http://hachiojipm.org/">Hachioji.pm</a></p>
+    <p>そして <a href="http://hachiojipm.org/">Hachioji.pm</a> の方々</p>
     </div>
   </div>
 
