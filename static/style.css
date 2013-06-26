@@ -140,3 +140,10 @@ ul.menu li a {
 ul.menu li a img {
     margin-top: -5px;
 }
+
+div.logo-img {
+    text-align: center;
+    background-image: url("logo-bg.png");
+    padding: 10px;
+    border-radius: 4px;
+}
