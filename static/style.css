@@ -140,3 +140,7 @@ ul.menu li a {
 ul.menu li a img {
     margin-top: -5px;
 }
+
+.date {
+    text-decoration: italic;
+}
