@@ -141,6 +141,14 @@ ul.menu li a img {
     margin-top: -5px;
 }
 
+<<<<<<< HEAD
 .date {
     text-decoration: italic;
+=======
+div.logo-img {
+    text-align: center;
+    background-image: url("logo-bg.png");
+    padding: 10px;
+    border-radius: 4px;
+>>>>>>> 71435bf7d6e5d7b899ae4c17a4f3198e48574f3a
 }
