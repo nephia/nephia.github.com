@@ -1,0 +1,11 @@
+div.main {
+    width: 900px;
+    margin: auto;
+}
+
+p.logo {
+    text-align: center;
+    background-image: url(/static/logo-bg.png);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

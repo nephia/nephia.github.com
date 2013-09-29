@@ -3,26 +3,33 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link rel="alternate" type="application/atom+xml" title="Atom" href="<: '/atom.xml' | uri_for :>">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://nephia.github.io/atom.xml">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet">
   <link href="/static/main.css" rel="stylesheet">
   <title>
-  : block title -> {
-    <: $blog.title :>
-  :  }
+Archives | Nephia - mini WAF written in perl
   </title>
 </head>
 <body>
   <div class="main">
     <header>
       <p class="logo"><img src="/static/nephia-simple-180.png"></p>
-      <h1><a href="<: '/' | uri_for :>"><: $blog.title :></a></h1>
+      <h1><a href="http://nephia.github.io/">Nephia - mini WAF written in perl</a></h1>
     </header>
     <section>
-    : block content -> { }
+<article>
+<h1>Archives</h1>
+
+<ul class="archives">
+<li><time>2013-09-29</time><a href="http://nephia.github.io/entry/get-start.html">Getting started to Nephia</a></li>
+<li><time>2013-09-29</time><a href="http://nephia.github.io/entry/about.html">About</a></li>
+</ul>
+
+
+</article>
     </section>
     <footer>
-      <p>author: <: $blog.author :></p>
+      <p>author: Nephia development team</p>
     </footer>
   </div>
 

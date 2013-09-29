@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Nephia - mini WAF written in perl</title>
+<link rel="alternate" href="http://nephia.github.io/" />
+<author>Nephia development team</author>
+<generator uri="https://github.com/Songmu/p5-Riji" version="0.0.10">Perl Riji</generator>
+<id>tag:nephia.github.io,2013-09-29:</id>
+<updated>2013-09-29T11:03:10+09:00</updated>
+<entry>
+<title type="text">Getting started to Nephia</title>
+<link href="http://nephia.github.io/entry/get-start.html" />
+<content><![CDATA[<h1>Getting started to Nephia</h1>
+
+<h2>Install Nephia</h2>
+
+<pre><code>$ cpanm Nephia
+</code></pre>
+
+<h2>Create your project</h2>
+
+<pre><code>$ nephia-setup YourApp
+</code></pre>
+
+<h2>Up your project</h2>
+
+<pre><code>$ cd ./YourApp
+$ plackup
+</code></pre>
+
+<p>Then, you can access to <a href="http://nephia.github.io:5000/">http://nephia.github.io:5000/</a> .</p>
+]]></content>
+<id>tag:nephia.github.io,2013-09-29:entry-get-start.html</id>
+<published>2013-09-29T31:31:30+0900</published>
+<updated>2013-09-29T11:31:30+09:00</updated>
+</entry>
+<entry>
+<title type="text">About</title>
+<link href="http://nephia.github.io/entry/about.html" />
+<content><![CDATA[<h1>About</h1>
+
+<h2>What is it ?</h2>
+
+<p><a href="http://search.cpan.org/perldoc?Nephia">Nephia</a> is a mini WAF that written in perl.</p>
+
+<h2>How to use ?</h2>
+
+<p>See <a href="/entry/get-start.html">Getting started to Nephia</a> .</p>
+
+<h2>Resources for developpers</h2>
+
+<p><a href="http://github.com/nephia">GitHub</a></p>
+
+<p><a href="http://travis-ci.org/nephia/Nephia">travis-ci</a></p>
+
+<p><a href="http://coveralls.io/r/nephia/Nephia">Coveralls</a></p>
+
+<h2>See Also</h2>
+
+<p><a href="http://search.cpan.org/perldoc?Nephia">Nephia on CPAN</a></p>
+
+<h2>Contributors</h2>
+
+<ul>
+<li><p>ytnobody</p></li>
+<li><p>ichigotake</p></li>
+<li><p>papix</p></li>
+<li><p>macopy</p></li>
+<li><p>songmu</p></li>
+<li><p>moznion</p></li>
+</ul>
+
+
+<p>And, folks of Hachioji.pm.</p>
+]]></content>
+<id>tag:nephia.github.io,2013-09-29:entry-about.html</id>
+<published>2013-09-29T31:31:30+0900</published>
+<updated>2013-09-29T11:31:30+09:00</updated>
+</entry>
+</feed>
