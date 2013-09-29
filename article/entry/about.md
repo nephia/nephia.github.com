@@ -6,7 +6,7 @@
 
 ## How to use ?
 
-See [Getting started to Nephia](/entry/get-start.html) .
+See [Getting started to Nephia](get-start.html) .
 
 ## Resources for developpers
 
