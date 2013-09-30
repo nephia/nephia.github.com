@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <link rel="alternate" type="application/atom+xml" title="Atom" href="<: '/atom.xml' | uri_for :>">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/blog/static/main.css" rel="stylesheet">
+  <link href="<: '/static/main.css' | uri_for :>" rel="stylesheet">
   <title>
   : block title -> {
     <: $blog.title :>
@@ -15,7 +15,7 @@
 <body>
   <div class="main">
     <header>
-      <p class="logo"><img src="/blog/static/nephia-simple-180.png"></p>
+      <p class="logo"><img src="<: '/static/nephia-simple-180.png' | uri_for :>"></p>
       <h1><a href="<: '/' | uri_for :>"><: $blog.title :></a></h1>
     </header>
     <section>

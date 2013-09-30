@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Nephia - mini WAF written in perl</title>
-<link rel="alternate" href="http://nephia.github.io/" />
+<link rel="alternate" href="http://nephia.github.io/blog/" />
 <author>Nephia development team</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="0.0.10">Perl Riji</generator>
-<id>tag:nephia.github.io,2013-09-29:</id>
-<updated>2013-09-29T11:38:27+09:00</updated>
+<id>tag:nephia.github.io,2013-09-30:blog:</id>
+<entry>
+<title type="text">Getting started to Nephia</title>
+<link href="http://nephia.github.io/blog/entry/get-start.html" />
+<content><![CDATA[<h1>Getting started to Nephia</h1>
+
+<h2>Install Nephia</h2>
+
+<pre><code>$ cpanm Nephia
+</code></pre>
+
+<h2>Create your project</h2>
+
+<pre><code>$ nephia-setup YourApp
+</code></pre>
+
+<h2>Up your project</h2>
+
+<pre><code>$ cd ./YourApp
+$ plackup
+</code></pre>
+
+<p>Then, you can access to <a href="http://nephia.github.io/blog:5000/">http://nephia.github.io/blog:5000/</a> .</p>
+]]></content>
+<id>tag:nephia.github.io,2013-09-30:blog:entry-get-start.html</id>
+<published>2013-09-30T41:41:20+0900</published>
+<updated>2013-09-30T18:41:20+09:00</updated>
+</entry>
 <entry>
 <title type="text">About</title>
-<link href="http://nephia.github.io/entry/about.html" />
-<author>
-<name>ytnobody</name>
-</author>
+<link href="http://nephia.github.io/blog/entry/about.html" />
 <content><![CDATA[<h1>About</h1>
 
 <h2>What is it ?</h2>
@@ -48,38 +71,8 @@
 
 <p>And, folks of Hachioji.pm.</p>
 ]]></content>
-<id>tag:nephia.github.io,2013-09-29:entry-about.html</id>
-<published>2013-09-29T32:32:19+0900</published>
-<updated>2013-09-29T11:38:27+09:00</updated>
-</entry>
-<entry>
-<title type="text">Getting started to Nephia</title>
-<link href="http://nephia.github.io/entry/get-start.html" />
-<author>
-<name>ytnobody</name>
-</author>
-<content><![CDATA[<h1>Getting started to Nephia</h1>
-
-<h2>Install Nephia</h2>
-
-<pre><code>$ cpanm Nephia
-</code></pre>
-
-<h2>Create your project</h2>
-
-<pre><code>$ nephia-setup YourApp
-</code></pre>
-
-<h2>Up your project</h2>
-
-<pre><code>$ cd ./YourApp
-$ plackup
-</code></pre>
-
-<p>Then, you can access to <a href="http://nephia.github.io:5000/">http://nephia.github.io:5000/</a> .</p>
-]]></content>
-<id>tag:nephia.github.io,2013-09-29:entry-get-start.html</id>
-<published>2013-09-29T32:32:19+0900</published>
-<updated>2013-09-29T11:32:19+09:00</updated>
+<id>tag:nephia.github.io,2013-09-30:blog:entry-about.html</id>
+<published>2013-09-30T41:41:20+0900</published>
+<updated>2013-09-30T18:41:20+09:00</updated>
 </entry>
 </feed>

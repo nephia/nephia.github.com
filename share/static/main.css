@@ -5,7 +5,7 @@ div.main {
 
 p.logo {
     text-align: center;
-    background-image: url(/blog/static/logo-bg.png);
+    background-image: url(./logo-bg.png);
     padding-top: 7px;
     padding-bottom: 7px;
 }
